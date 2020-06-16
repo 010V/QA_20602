@@ -7,13 +7,12 @@
 # - master
 
 schedules:
-- cron: "53 12 * * *"
-  always: true
+- cron: "59 12 * * *"
   displayName: Daily midnight build
   branches:
     include:
     - master
-    
+  always: true
 
 pool:
   vmImage: 'ubuntu-latest'
