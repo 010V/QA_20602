@@ -6,12 +6,12 @@
 # pr: none
 # trigger: none
 
-trigger:
-- master
+# trigger:
+# - master
 
 schedules:
 - cron: "08 13 * * *"
-  displayName: Daily midnight build
+  displayName: Custom time
   branches:
     include:
     - master
