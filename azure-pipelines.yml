@@ -4,13 +4,13 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/javascript
 
 pr: none
-trigger: none
+# trigger: none
 
 # trigger:
 # - master
 
 schedules:
-- cron: "37 12 * * *"
+- cron: "39 12 * * *"
   displayName: Custom time
   branches:
     include:
